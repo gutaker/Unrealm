@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "Unrealm", targets: ["Unrealm", "UnrealmObjC"])
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-cocoa.git"),
+        .package(url: "https://github.com/realm/realm-cocoa.git", from: "v10.1.2"),
         .package(url: "https://github.com/arturdev/RuntimeNew.git", from: "2.1.7")
     ],
     targets: [
