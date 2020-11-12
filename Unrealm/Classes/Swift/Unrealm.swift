@@ -129,8 +129,6 @@ public protocol RealmableBase {
      - returns: An array of property names.
      */
     static func indexedProperties() -> [String]
-
-    init()
 }
 
 public extension RealmableBase {
